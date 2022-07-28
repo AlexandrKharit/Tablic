@@ -1,0 +1,26 @@
+table {
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	border-collapse: collapse;
+}
+th,td:first-child {
+	font-weight: bold;
+	background-color: #B0C4DE;
+	padding: 15px ;
+	color: #000000;
+
+}
+tr:nth-child(even) {
+	background: rgba(96, 125, 139, 0.1);
+}
+thead tr {
+	position: sticky ;
+	top: 0;
+	z-index: 4;
+}
+tbody td {
+	position: sticky;
+	left: 0;
+	
+}
